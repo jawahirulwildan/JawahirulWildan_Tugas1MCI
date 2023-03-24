@@ -1,17 +1,15 @@
-function penjumlahan(a, b) {
+export function penjumlahan(a, b) {
     return a + b;            
 }
 
-function pengurangan(a, b) {
+export function pengurangan(a, b) {
     return a - b;            
 }
 
-function perkalian(a, b) {
+export function perkalian(a, b) {
     return a * b;            
 }
 
-function pembagian(a, b) {
+export function pembagian(a, b) {
     return a / b;            
 }
-
-export{ penjumlahan, pengurangan, perkalian, pembagian };
